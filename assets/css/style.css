@@ -13,6 +13,8 @@ Importación de fuentes
 /*------------------------------------------------
 Génerico
 ------------------------------------------------*/
+
+/* Formateo de clases */
 *, *::before, *::after{    
     font-family: 'Lora', serif;
     box-sizing: border-box;
@@ -75,7 +77,9 @@ h3, legend{
 /* bloques */
 section{margin: 2.75rem 0;}
 blockquote{ font-size: 1.5rem;}
-p{line-height: 1.5rem;}
+p{
+    line-height: 1.5rem;
+}
 
 
 /*------------------------------------------------
@@ -87,6 +91,7 @@ header{
     align-items: center;
     justify-content: center;
     color: #fff;
+    background: #48C9B0;
 }
 
 /*---- Top Header -------------*/
@@ -241,10 +246,6 @@ Cabeceras páginas
 /*------------------------------------------------
 Detalle exposición
 ------------------------------------------------*/
-.expo-detalle main.container-fluid{
-    padding-left: 0px;
-    padding-right: 0px;
-}
 .detalle-cabecera{
     background: url("../img/expo-degas.jpg");
     min-height: 350px;
