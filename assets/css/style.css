@@ -174,20 +174,10 @@ main img{width: 100%;}
     align-items: center;
     justify-content: center;
 }
-.fila > div, .fila > article{
-    margin-top: 1.25rem;
-}
-.align-izquierda{
-    justify-content: flex-start;
-}
-.align-izquierda > div{
-    margin-right: 1.25rem;
-}
-
-
-.planifica-visita span{
-    font-size: 0.75rem;
-}
+.fila > div, .fila > article{margin-top: 1.25rem;}
+.align-izquierda{justify-content: flex-start;}
+.align-izquierda > div{margin-right: 1.25rem;}
+.planifica-visita span{font-size: 0.75rem;}
 /*------------------------------------------------
 Formulario
 ------------------------------------------------*/
@@ -221,9 +211,7 @@ input[type="number"]{
     border-radius: 0.25rem;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
-select{
-    height: auto;
-}
+select{height: auto;}
 input[type="radio"]{
     font-size: 1rem;
     font-weight: 400;
@@ -235,9 +223,7 @@ input[type="radio"]{
     border-radius: 0.25rem;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
-small{
-    color: #495057;
-}
+small{color: #495057;}
 
 /*------------------------------------------------
 Cabeceras páginas
@@ -250,9 +236,7 @@ Cabeceras páginas
     justify-content: flex-start;
     align-content: center;
 }
-.cabecera-main > div.container{
-    padding-left: 2rem;
-}
+.cabecera-main > div.container{padding-left: 2rem;}
 
 /*------------------------------------------------
 Detalle exposición
@@ -298,9 +282,7 @@ Donación
     color: #fff;
     width: 100%;
 }
-.detalle-cabecera button{
-    margin-top: 10px;
-}
+.detalle-cabecera button{margin-top: 10px;}
 
 
 
@@ -320,9 +302,7 @@ footer{
     padding-top: 50px;
 
 }
-footer i{
-    font-size: 1.25rem;
-}
+footer i{font-size: 1.25rem;}
 footer .pie{
     display: flex;
     flex-wrap: wrap;
@@ -358,10 +338,7 @@ footer .navbar-nav {
     -ms-flex-direction: row;
     flex-direction: row;
 }
-footer .navbar a{
-    margin-right: 0.5rem;
-}
-
+footer .navbar a{margin-right: 0.5rem;}
 footer img{
     max-width: 200px;
 }
@@ -381,25 +358,15 @@ footer.container-fluid{
     max-width: 800px;
     margin: 0 auto;
 }
-.creditos a{
-    color: #48C9B0 ;
-}
-.creditos a:hover{
-    color: #007bff ;
-}
-.creditos h6{
-    font-size: 0.75rem;
-}
-
-a.logo{
-    background: #48C9B0;
-}
+.creditos a{color: #48C9B0 ;}
+.creditos a:hover{color: #007bff ;}
+.creditos h6{font-size: 0.75rem;}
+a.logo{background: #48C9B0;}
 
 .blockquote-footer{
     padding-top: 0px;
     background: transparent;
 }
-
 
 .contenedor {
     margin: 2rem auto;
