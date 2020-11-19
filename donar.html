@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Expo detalle · La Galería Ecléctica</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body class="expo-detalle">
+        <header class="bg-verde-oscuro">
+            <div class="cabecera-top">
+                <div>
+                    <a href="donar.html">Donaciones</a>
+                </div>
+                <div>
+                    <a href="#">ES</a>
+                    <a href="#">CA</a>
+                    <a href="#">EN</a>
+                </div>
+            </div>
+            <a href="index.html">
+                <img src="assets/img/logo.png" alt="logo" title="logo"/>
+            </a>
+            <nav class="navbar">
+                    <ul class="navbar-nav">
+                        <li><a class="nav-item nav-link" href="#">Colección</a></li>
+                        <li><a class="nav-item nav-link" href="exposiciones.html">Exposiciones</a></li>
+                        <li><a class="nav-item nav-link" href="#">Actividades</a></li>
+                        <li><a class="nav-item nav-link" href="#">Revista</a></li>
+                    </ul>
+            </nav>
+            <nav class="breadcrumb ">
+                <ol>
+                    <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+                    <li class="breadcrumb-item">Haz un donativo</li>
+                </ol>
+            </nav>
+            </header>
+
+        <main class="container-fluid">
+            <section class="donar-cabecera cabecera-main">
+                <div class="container">
+                    <h1>Donación en línea</h1>
+                </div>
+            </section>
+
+            <section id="proximas" class="actividades container">
+                <div class="fila align-izquierda">
+                    <div class="tres-columnas">
+                        <blockquote class="blockquote">
+                                La protección y promoción de la diversidad cultural y natural es uno de los grandes desafíos del siglo XXI.
+                                A este respecto, los museos y colecciones son medios primordiales para salvaguardar los testimonios materiales e
+                                inmateriales de la naturaleza y las culturas humanas. 
+                            <footer class="blockquote-footer"> <cite title="Source Title">UNESCO, 17 de noviembre de 2015</cite></footer>
+                        </blockquote>
+                    </div>
+                    <div class="dos-tres-columnas">
+                        <p>
+
+
+                        </p>
+
+                        <p>
+                            LAGaEC tiene como objetivo la difusión de la cultura y se sostiene en base a donaciones de personas que comparten nuestro interés por las manifestaciones culturales de todo tipo.
+                            Gracias por tu apoyo.
+                        </p>
+                        <form>
+                            <fieldset>
+                                <legend>Cantidad del donativo (EUR)</legend>
+                                <div class="radio">
+                                    <input class="form-check-input" type="radio" name="mensual" id="unaVez" value="option1" checked>
+                                    <label class="form-check-label" for="unaVez"> Una única vez </label>
+                                    <input class="form-check-input" type="radio" name="mensual" id="mensual" value="option2">
+                                    <label class="form-check-label" for="mensual">Mensual</label>
+                                </div>
+                                <label for="exampleFormControlSelect2">Importe</label>
+                                <select multiple class="form-control" id="exampleFormControlSelect2">
+                                    <option>5€</option>
+                                    <option>10€</option>
+                                    <option>20€</option>
+                                    <option>40€</option>
+                                    <option>50€</option>
+                                    <option>100€</option>
+                                </select>
+                                <label for="otroImporte">Otra cantidad</label>
+                                <input type="number" class="form-control" id="otroImporte" placeholder="Escriba otro importe">
+                            </fieldset>
+                            <fieldset>
+                                <legend>Datos de facturación</legend>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Escribe tu email">
+                                <small id="emailHelp" class="form-text text-muted">Nunca compartiremos su correo electrónico con nadie.</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="nombre">Nombre </label>
+                                <input type="text" class="form-control" id="nombre" aria-describedby="nombreHelp" placeholder="Escribe tu nombre ">
+                            </div>
+                            <div class="form-group">
+                                <label for="apellidos">Apellidos </label>
+                                <input type="text" class="form-control" id="apellidos" aria-describedby="apellidosHelp" placeholder="Tu apellidos">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="direccion">Dirección postal </label>
+                                <input type="text" class="form-control" id="direccion" aria-describedby="direccionHelp" placeholder="Tu dirección postal">
+                                <small id="direccionHelp" class="form-text text-muted">Nunca compartiremos su dirección con nadie.</small>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="telefono">Teléfono </label>
+                                <input type="tel" class="form-control" id="telefono" aria-describedby="telefonoHelp" placeholder="Teléfono">
+                                <small id="telefonoHelp" class="form-text text-muted">Nunca compartiremos su teléfono con nadie más.</small>
+                            </div>
+                            </fieldset>
+                            <fieldset>
+                                <legend>Datos de pago</legend>
+                                
+                                <label for="tarjeta">Número tarjeta</label>
+                                <input type="number" class="form-control" id="tarjeta" aria-describedby="tarjetalHelp" placeholder="Número de tarjeta">
+                                
+                                <label for="expiracion">Data de expiración</label>
+                                <input type="text" class="form-control" id="expiracion" placeholder="MM/AA">
+                                
+                                <label for="ccv">Código de verificación</label>
+                                <input type="number" class="form-control" id="ccv" placeholder="CCV">
+                                
+                                <input type="checkbox" class="custom-control-input" id="anonima">
+                                <label class="custom-control-label" for="anonima">Hago este donativo de manera anónima</label>
+                                <br>
+                                <input type="checkbox" class="custom-control-input" id="LOPD">
+                                <label class="custom-control-label" for="LOPD">Acepto expresamente la <a href="#">política de protección de datos </a></label>
+                                
+                            </fieldset>
+                            <button type="submit" class="btn btn-secondary">Enviar</button>
+                        </form>
+
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="container-fluid">
+            <div class="container pie">
+                <h4>La Galería Ecléctica</h4>
+                <a href="#">
+                    Plaza del Poblenou, 1 <br>
+                    08018 Barcelona
+                </a>
+                <div class="rrss">
+                    <a href="#"><i class="fab fa-facebook-square"></i></a>
+                    <a href="#"><i class="fab fa-twitter-square"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube-square"></i></a>
+                </div>
+
+                <form method="">
+                    <fieldset>
+                        <legend>Suscríbete a nuestra Newsletter</legend>
+                        <!--label for="suscribete">Email</label-->
+                        <input type="email" class="form-control" id="suscribete"  placeholder="Enter email">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Acepto la <a href="#">Política de privacidad </a></label>
+                        <button type="submit" class="btn btn-secondary">Registrarme</button>
+                    </fieldset>
+                </form>
+                <a href="index.html" class="logo">
+                    <img src="assets/img/logo.png" alt="logo" title="logo"/>
+                </a>
+                <nav class="navbar">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link active" href="#">Quiénes somos</a>
+                        <a class="nav-item nav-link" href="#">Política de Privacidad</a>
+                        <a class="nav-item nav-link" href="#">Aviso Legal</a>
+                        <a class="nav-item nav-link" href="#">Cookies</a>
+                    </div>
+                </nav>
+
+            </div>
+            <div class="creditos">
+                <h6>Créditos</h6>
+                <p>© LAGaEC. Imágenes de las obras artísticas de dominio público,
+                    <a href="https://www.metmuseum.org/art/collection/search#!?searchField=All&showOnly=openAccess&sortBy=relevance&offset=0&pageSize=0" target="_blank">The Metropolitan Museum</a>.
+                    Fotografías, <a href="https://unsplash.com" target="_blank">Unsplash</a>
+                    Ejemplo realizado por Alejandro Carmona Martos, para el módulo Diseño de Interfaces Web
+                    del curso 2020-2021</p>
+            </div> 
+        </footer>
+        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" data-auto-replace-svg="nest" defer></script>
+    </body>
+</html>
