@@ -17,9 +17,7 @@ Génerico
     font-family: 'Lora', serif;
     box-sizing: border-box;
 }
-button{
-    border:0
-}
+
 li{
     list-style: none;
 }
@@ -27,11 +25,14 @@ ul, ol{
     padding-inline-start: 0px;
 }
 
+/* Se puede transformar en variables [UT6]*/
+
 .bg-verde-claro{ background: #E8F8F5; }
 .bg-verde-oscuro{ background: #48C9B0;}
 .font-verde-claro{ color: #E8F8F5;}
 .font-verde-oscuro{ color: #48C9B0;}
 
+/* enlaces */
 a{
     color: #48C9B0 ;
     text-decoration: none;
@@ -45,6 +46,7 @@ a:hover{
     color: rgba(0, 0, 0, 0.5);
 }
 
+/* botones */
 .btn{
     background-color: #6c757d;
     color: #fff;
@@ -54,6 +56,7 @@ a:hover{
     font-size: 1rem;
     min-width: 6rem;
     margin-top: 1rem;
+    border:0
 }
 .btn:hover{
     background-color: #fff;
@@ -61,25 +64,17 @@ a:hover{
     border: solid 1px #6c757d;
 }
 
-h1{
-    font-size: 3rem;
-}
+/* títulos*/
+h1{font-size: 3rem;}
 h3, legend{
     color: #48C9B0 ;
     font-size: 1.25rem;
     font-weight: 700;
 }
 
-main img{
-    width: 100%;
-}
-
-section{
-    margin: 2.75rem 0;
-}
-blockquote{
-    font-size: 1.5rem;
-}
+/* bloques */
+section{margin: 2.75rem 0;}
+blockquote{ font-size: 1.5rem;}
 p{line-height: 1.5rem;}
 
 
@@ -163,6 +158,9 @@ Parte principal - main
 ------------------------------------------------*/
 main{
     padding-bottom: 2rem;
+}
+main img{
+    width: 100%;
 }
 
 .fila{
