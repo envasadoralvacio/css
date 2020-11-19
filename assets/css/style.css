@@ -98,12 +98,8 @@ header{
     align-items: center;
     padding: 5px 10px;
 }
-.cabecera-top a{
-    color: #fff;
-}
-.cabecera-top > div{
-    max-width: 200px;
-}
+.cabecera-top a{color: #fff;}
+.cabecera-top > div{max-width: 200px;}
 
 /*---- Nav Header -------------*/
 nav{
@@ -156,12 +152,8 @@ nav > ul > li{
 /*------------------------------------------------
 Parte principal - main
 ------------------------------------------------*/
-main{
-    padding-bottom: 2rem;
-}
-main img{
-    width: 100%;
-}
+main{padding-bottom: 2rem;}
+main img{width: 100%;}
 
 .fila{
     display: flex;
@@ -169,15 +161,9 @@ main img{
     justify-content: space-between;
 }
 
-.fila *.dos-columnas{
-    width: 48vw;
-}
-.fila *.tres-columnas{
-    width: 32vw
-}
-.fila *.cuatro-columnas{
-    width: 23vw;
-}
+.fila *.dos-columnas{width: 48vw;}
+.fila *.tres-columnas{width: 32vw}
+.fila *.cuatro-columnas{width: 23vw;}
 .fila *.dos-tres-columnas{
     max-width: 60%;
     padding-left:7%;
